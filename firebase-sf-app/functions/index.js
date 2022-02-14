@@ -1,7 +1,5 @@
-
-
 // // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
+// //z https://firebase.google.com/docs/functions/write-firebase-functions
 
 const admin = require('firebase-admin');
 admin.initializeApp();
@@ -11,7 +9,7 @@ const cors = require('cors')({ origin: true });
 
 
 
-const db = admin.database().ref('/bookshelf-rc');
+const db = admin.database().ref('/bookshelf-rc-default-rtdb');
 
 /*
 exports.helloWorld = functions.https.onRequest((request, response) => {
